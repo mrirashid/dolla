@@ -1,0 +1,51 @@
+/*XL Device :1200px */
+@media screen and (min-width: 1450px) and (max-width: 1600px){
+    .hero .mid{
+        height: 84vh;}
+    }
+@media screen and (min-width: 1200px) and (max-width: 1449px){
+    .hero .mid{
+        height: 84vh;}
+
+}
+
+/*LG Device :992px */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .hero .mid{
+        height: 84vh;}
+    .about .left-content h2 {
+        font-size: 38px; }
+}
+
+/*MD Device :768px */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .hero .content h1 {
+        font-size: 46px !important; }
+        .hero .content p {
+            font-size: 18px;}
+    .about .left-content h2 {
+            font-size: 35px;
+                     }
+}
+/*Extra Small Device */
+@media screen and (max-width: 767px){
+    .hero .mid{
+        height: 70vh;}
+    .hero .content h1 {
+        font-size: 35px; }
+    .about .left-content h2 {
+        font-size: 30px;}
+    .hero .content{
+            padding-top: 70px;}
+    .hero .content p {
+            font-size: 18px;
+           padding: 5px;
+            }
+    .service .service-single {
+                margin-bottom: 20px;}
+}
+
+/*SM Small Device :550px */
+@media  (min-width: 576px) and (max-width: 767px){
+
+}
